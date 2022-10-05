@@ -99,6 +99,9 @@ dependencies {
 
     // jdbc
     implementation('org.springframework.boot:spring-boot-starter-jdbc')
+
+    // 취약 jackson
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2'
 }
 
 test {
